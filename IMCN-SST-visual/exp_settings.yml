@@ -1,0 +1,56 @@
+preferences:
+    general:
+        units: deg
+
+window:
+    size: [2560, 1440]
+    pos: [0,0]
+    units: deg
+    fullscr: True
+    color: [-1,-1,-1]
+    waitBlanking: True
+    useRetina: True
+    useFBO: True
+    allowGUI: False
+    allowStencil: False
+    gammaErrorPolicy: warn
+
+monitor:
+    name: default
+    width: 69      # in cm
+    distance: 170 #210  # in cm
+    gamma: 1
+    
+mouse:
+    visible: False
+    
+mri:
+    simulate: False
+    TR: 1.38
+    TA: 1.38
+    volumes: 1000
+    warmup_trs: 0
+    sync: s
+    skip: 0
+    sound: False
+    
+input:
+    response_button_left: r
+    response_button_right: b
+    response_button_1: r
+    response_button_2: g
+    response_button_3: y
+    test_sound_button: t
+    operator_skip_button: space
+    
+stimulus:
+    arrow_size: 14              # arrow for stop signal
+    circle_radius_degrees: 4    # fixation circle for both tasks
+    line_width: 10               # line width of fixation circle
+    line_color: white           # line colour of fixation circle
+    stop_line_color: red        # line colour of the stop signal
+    choiceTime: 0.6             # speed stressed choice phase time for MSIT
+    textSize: 2.1               # feedback text height for both tasks
+    stimSize: 3.0               # MSIT stimulus height
+    instructSize: 1.0           # height for instruction of both tasks
+    line_space: 1.2               # line spacing between instruction texts
